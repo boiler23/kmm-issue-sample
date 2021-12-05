@@ -10,6 +10,8 @@ android {
         minSdk = 21
         targetSdk = 31
     }
+
+    buildFeatures.buildConfig = true
 }
 
 dependencies {
